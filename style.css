@@ -1,0 +1,51 @@
+header h1{
+    text-align: center;
+    font-style: italic;
+}
+header h2 {
+    text-align: center;
+    font-style: italic;
+}
+header h3 {
+    text-decoration: underline;
+    color: blue;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+link {
+    color: blue;
+    visited color: purple;
+}
+header Otherservices {
+    text-align: center;
+    font-style: italic;
+}
+.car-brands {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+.BMW {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100px;
+    height: 100px;
+}
+.toyota {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100px;
+    height: 100px;
+}

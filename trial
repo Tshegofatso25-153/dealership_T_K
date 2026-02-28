@@ -1,0 +1,27 @@
+<style>
+    div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    div img {
+        width: 400px;
+        height: 300;
+        border: 2px solid #ff3d0036;
+        border-radius: 13px;
+        box-shadow: 4px 7px 7px 0px #00000042;
+        cursor: pointer;
+        margin: 10px;
+        transition: 400ms
+    }
+    div img:hover {
+        filter: grayscale(1);
+        transform: scale(1.03);
+    }
+</style>
+<div>
+    <img src="https://paultan.org/cn/image/2019/08/C167-Mercedes-Benz-GLE-Coupe-7.jpg" alt="Mercedes Benz GLE Coupe">
+    <img src="https://tse3.mm.bing.net/th/id/OIP.cWpZVbRVLH9m_Fm4ZjNiiAHaEK?rs=1&pid=ImgDetMain&o=7&rm=3" alt="bmw m5">
+</div>
+
