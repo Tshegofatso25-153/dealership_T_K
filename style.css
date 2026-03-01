@@ -8,7 +8,7 @@ header h2 {
 }
 header h3 {
     text-decoration: underline;
-    color: blue;
+    color:aqua
 }
 footer {
     background-color: #333;
@@ -27,25 +27,30 @@ header Otherservices {
     text-align: center;
     font-style: italic;
 }
-.car-brands {
+.BMW, .mercedes, .toyota  {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     width: 100px;
     height: 100px;
-    text-align: center;
+    gap: 20px;                 
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;              
+  height: auto;             
+  text-align: center;        
+
 }
-.BMW {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 100px;
-    height: 100px;
+.BMW figure, .toyota figure, .mercedes figure {
+  margin: 0;
+  width: 250px;              
 }
-.toyota {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 100px;
-    height: 100px;
+
+.BMW figcaption, .toyota figcaption, .mercedes figcaption {
+  font-weight: bold;
+  margin-top: 5px;
+}
+.BMW img, .toyota img, .mercedes img {
+  width: 100%;           
+  border-radius: 8px;    
 }

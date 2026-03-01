@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UFT-8"
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercedes Benz AMG GT Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <p> Price: P1 400 000</p>
+        <p>Acceleration (0-100): 4.0s </p>
+        <p>Top speed(km/h): 280 </p>
+    </main>      
+</body>
+</html>

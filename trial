@@ -1,27 +1,71 @@
-<style>
-    div {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-    div img {
-        width: 400px;
-        height: 300;
-        border: 2px solid #ff3d0036;
-        border-radius: 13px;
-        box-shadow: 4px 7px 7px 0px #00000042;
-        cursor: pointer;
-        margin: 10px;
-        transition: 400ms
-    }
-    div img:hover {
-        filter: grayscale(1);
-        transform: scale(1.03);
-    }
-</style>
-<div>
-    <img src="https://paultan.org/cn/image/2019/08/C167-Mercedes-Benz-GLE-Coupe-7.jpg" alt="Mercedes Benz GLE Coupe">
-    <img src="https://tse3.mm.bing.net/th/id/OIP.cWpZVbRVLH9m_Fm4ZjNiiAHaEK?rs=1&pid=ImgDetMain&o=7&rm=3" alt="bmw m5">
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicles - T_K Dealership</title>
+    <link rel="stylesheets" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="vehicles.html">VEHICLES</a>
+            <a href="otherservices.html">OTHER SERVICES</a>
+        </nav>
+        <h2>Choose a Car Brand</h2>
+    </header>
+    <main>
+        <h3>Mercedes Benz</h3>
+        <div class="mercedes">
+        <figure>
+            <img src="images/amg-coupe.webp" alt="Mercedes Benz AMG COUPE">
+            <figcaption>Mercedes Benz AMG COUPE</figcaption>
+         </figure>
+         <figure>
+            <img src="images/amg-gt.webp" alt="Mercedes Benz AMG GT">
+            <figcaption>Mercedes Benz AMG GT</figcaption>
+        </figure>
+        <figure>
+             <img src="images/g63.webp" alt="Mercedes Benz G63">
+            <figcaption>Mercedes Benz G63</figcaption>
+        </figure>
+         <figure>
+            <img src="images/mercedes -gle.webp" alt="Mercedes Benz GLE">
+            <figcaption>Mercedes Benz GLE</figcaption>
+        </figure>
+         <figure>
+            <img src="images/mercesdes-gle-coupe.webp" alt="Mercedes Benz GLE COUPE">
+            <figcaption>Mercedes Benz GLE COUPE</figcaption>
+        </figure>
+        </div>
+        <h3>BMW</h3>
+        <div class="BMW">
+            <img src="images/m4.webp" alt="BMW m4">
+            <p>BMW M4</p>
+            <img src="images/m3.webp" alt="BMW m3">
+            <p>BMW M3</p>
+            <img src="images/m5.webp" alt="BMW m5">
+            <p>BMW M5</p>
+            <img src="images/x5.webp" alt="BMW x5">
+            <p>BMW X5</p>
+            <img src="images/x6.webp" alt="BMW x6">
+            <p>BMW X6</p>
+     </div>
+        <h3>Toyota</h3>
+     <div class="toyota">
+            <img src="images/land cruise.jpg" alt="Toyota Land Cruiser">
+            <p>Toyota Land Cruiser</p>
+            <img src="images/furtina.webp" alt="Toyota Fortuner">
+            <p>Toyota Fortuner</p>
+            <img src="images/toyota hilux.webp" alt="Toyota Hilux">
+            <p>Toyota Hilux</p>
+            <img src="images/legend 55.jpg" alt="Toyota Legend 55">
+            <p>Toyota Legend 55</p>
+            <img src="images/rav4.webp" alt="Toyota RAV4">
+            <p>Toyota RAV4</p>
+        </div>
+    </main>
+</body>
+</html>
 
