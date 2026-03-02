@@ -19,14 +19,6 @@ footer {
     width: 100%;
     bottom: 0;
 }
-link {
-    color: blue;
-    visited color: purple;
-}
-header Otherservices {
-    text-align: center;
-    font-style: italic;
-}
 .BMW, .mercedes, .toyota  {
     display: flex;
     flex-direction: row;
@@ -53,4 +45,15 @@ header Otherservices {
 .BMW img, .toyota img, .mercedes img {
   width: 100%;           
   border-radius: 8px;    
+}
+.navbar {
+    color: white;
+    text-decoration: none;
+    background-color: #333;
+    padding: 15px;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
 }
