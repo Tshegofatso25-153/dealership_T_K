@@ -20,3 +20,18 @@ h2{
     text-decoration: none;
     margin: 0 10px;
 }
+table, th, td {
+  border-style: inset;
+
+}
+tr:nth-child(even) {
+  background-color: #a2b9d4;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+    bottom: 0;
+}
