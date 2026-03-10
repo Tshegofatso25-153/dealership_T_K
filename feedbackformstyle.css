@@ -1,4 +1,4 @@
-body{
+main{
     text-align: center;
     font-family: Arial, sans-serif;
      background: #f4f4f9;
@@ -34,4 +34,7 @@ body{
     color: white;
     text-decoration: none;
     margin: 0 10px;
+}
+header{
+     text-align: center;
 }
